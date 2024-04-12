@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.contentbox{
+    background-color: rgb(25,23,45);
+    height: 1500px;
+    width: 1500px;
+    
+}
+h1{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(25,23,45); 
+
+}
+.uppertext{
+    margin-left: 15%;
+    background-color: rgb(25,23,45); position: relative;
+    color: aliceblue;
+    font-family: serif;
+    font-size: 300%;
+    display: flex;
+    top: 5%;
+}
+.orangebox{
+    position: relative;
+    background-color: orange;
+    height: 180px;
+    width: 180px;
+    margin-left: 70%;
+    border-radius: 10%;
+    top: 50px;
+    right: 100px;
+    box-shadow: -10px 10px 10px 10px orange ;
+   
+    
+}
+
+
+.timebox{
+    position: relative;
+    height: 200px;
+    width: 700px;
+    background-color: rgba(55, 56, 58, 0.26);
+    margin-left: 25%;
+    border-radius: 2%;
+    z-index: 1;
+    top: -130px;
+    
+}
+.orangebox, .timebox{
+    display: inline-block; 
+}
+
+
+.bluebox{
+    
+    position: relative;
+    background-color:rgba(72, 72, 224, 0.918) ;
+    height: 180px;
+    width: 180px;
+    margin-left: 15%;
+    border-radius: 10%;
+    right: 1000px;
+    /* top: 100px; */
+    box-shadow: 10px -10px 10px rgb(72, 72, 224);
+}
+
+.timebox, .bluebox{
+    display: inline-block; 
+}
+
+.lowertext{
+    position: relative;
+    font-size: 300%;
+    color: aliceblue;
+    margin-left: 50%;
+    background-color: rgb(25,23,45);
+    margin-top: -80px;
+    
+}
+.text{
+    position: relative;
+    color: aliceblue;
+    margin-left: 60%;
+}
+
+#hrs{
+    background-color: rgb(2, 2, 2);
+    height: 100px;
+    width: 100px;
+}
+
+#min{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}
+
+#sec{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}
+
+
+#hrs, #min, #sec{
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    margin: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: aliceblue;
+    font-size: 70px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.dot{
+    font-size: 100px;
+    color: aliceblue;
+    background-color: rgba(55, 56, 58, 0.034);
+    
+}
+
+
